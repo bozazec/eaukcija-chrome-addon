@@ -1,0 +1,31 @@
+#eaukcije-extension-root {
+  height: auto;
+  position: relative;
+}
+.api-data-box {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 18px;
+  z-index: 9999;
+  min-width: 400px;
+  max-width: 500px;
+}
+.box {
+  position: relative;
+}
+.section {
+  border-bottom: 1px solid #777;
+}
+#close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+#Description {
+  font-size: 14px;
+}
