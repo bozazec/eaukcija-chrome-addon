@@ -28,7 +28,9 @@ React + Vite + TypeScript](https://github.com/Jonghakseo/chrome-extension-boiler
 
 ### Upotreba
 
-Ukoliko želite da samo instalirate ekstenziju u chrome i koristite je folder **dist** sadrži spremnu biblioteku za korišćenje. Sve što treba da uradite je da pratite ovo [uputstvo](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/) (učitajte `dist` folder) i uživajte.
+[pre nego što ekstenzija bude odobrena na google web store]
+
+Da loklano instalirate ekstenziju u chrome browseru i koristite je folder **dist** sadrži spremnu biblioteku za korišćenje. Sve što treba da uradite je da pratite ovo [uputstvo](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/) (učitajte `dist` folder) i uživajte.
 
 ### **Development**
 
