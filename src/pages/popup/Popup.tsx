@@ -5,20 +5,50 @@ import "@pages/popup/Popup.css";
 const Popup = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/pages/popup/Popup.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React!
-        </a>
-      </header>
+      <h1>ДОМОВИНА СЕ БРАНИ ЛЕПОТОМ</h1>
+      <p>
+        Домовина се брани реком
+        <br />
+        и рибом у води
+        <br />
+        и високом танком смреком
+        <br />
+        што расте у слободи.
+        <br />
+      </p>
+
+      <p>
+        Домовина се брани цветом
+        <br />
+        и пчелом у цвету
+        <br />
+        маком и сунцокретом
+        <br />
+        и птицом у лету.
+        <br />
+      </p>
+
+      <p>
+        Домовина се брани књигом
+        <br />
+        и песмом о небу
+        <br />
+        сестрином сузом и мајчином бригом
+        <br />
+        и оним брашном у хлебу.
+        <br />
+      </p>
+
+      <p>
+        Домовина се брани лепотом
+        <br />
+        и чашћу и знањем
+        <br />
+        домовина се брани животом
+        <br />
+        и лепим васпитањем.
+        <br />
+      </p>
     </div>
   );
 };

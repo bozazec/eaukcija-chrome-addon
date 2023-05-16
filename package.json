@@ -1,7 +1,7 @@
 {
   "name": "e-aukcija-sud-helper",
-  "version": "0.0.1",
-  "description": "eAukcijaSudHelper",
+  "version": "0.0.2",
+  "description": "Alat za eaukcija.sud.rs",
   "license": "MIT",
   "repository": {
     "type": "git",
