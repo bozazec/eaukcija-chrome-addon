@@ -6,18 +6,18 @@
 ## Problem i kontekst
 
 <hr>
-Kako bi olakšali postupak aukcijske prodaje pokretne i nepokretne imovine od strane javnih izvršitelja Ministartstvo Pravde je kreiralo portal https://eaukcija.sud.rs
+Kako bi sprečili malverzacije, a uz to i olakšali postupak aukcijske prodaje pokretne i nepokretne imovine od strane javnih izvršitelja Ministartstvo Pravde je kreiralo portal https://eaukcija.sud.rs
 </br>
 </br>
 
 Namerno ili slučajno korisničko iskustvo na ovom portalu nije na zadovoljavajućem nivou, zlobnici bi rekli i očajano.
 
-**Glavni problem** je što ne postoji adekvatan povretak na prethodnu stranu, već se tom prilikom učita home strana i izgubi paginacija i odabrana kategorija pa je za pregled kompletne ponude portala potrebno od dva do tri meseca.
+**Glavni problem** je što ne postoji adekvatan povretak na prethodnu stranu, već se tom prilikom učita home strana i izgubi paginacija i odabrana kategorija pa je za pregled kompletne ponude portala potrebno dva do tri meseca, ako računamo i vikende.
 
 ## Rešenje
 
 <hr>
-Ovaj Chrome addon radi učitavanje osnovnih podataka za akuciju na čiji se ID pozicionira kursor miša i prikazuje ih u pop-up, bez da napuštate stranu.
+Ovaj Chrome addon radi učitavanje osnovnih podataka za akuciju na čiji se ID pozicionira kursor miša i prikazuje ih u pop-up, bez napuštanja stranice.
 
 Rešenje je zasnovano na [Chrome Extension Boilerplate with
 React + Vite + TypeScript](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite)
@@ -28,9 +28,7 @@ React + Vite + TypeScript](https://github.com/Jonghakseo/chrome-extension-boiler
 
 ### Upotreba
 
-[pre nego što ekstenzija bude odobrena na google web store]
-
-Da loklano instalirate ekstenziju u chrome browseru i koristite je folder **dist** sadrži spremnu biblioteku za korišćenje. Sve što treba da uradite je da pratite ovo [uputstvo](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/) (učitajte `dist` folder) i uživajte.
+Instalirate [e-aukcoija-sud-helper](https://chrome.google.com/webstore/detail/e-aukcija-sud-helper/illihgkjadocdebiimlgmebifandicbk?hl=en) ekstenziju i odete na sajt https://eaukcija.sud.rs
 
 ### **Development**
 
